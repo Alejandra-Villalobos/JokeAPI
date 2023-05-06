@@ -30,6 +30,10 @@ body{
     padding: 25px;
 }
 
+#en{
+    background: navy;
+}
+
 #es:hover, #en:hover{
     background:navy;
     cursor: pointer;
@@ -53,13 +57,17 @@ body{
 }
 
 #joke-div{
-    margin: 0 30px;
+    margin: 30px;
+    border: solid #000;
+    border-radius: 15px;
+    display: none;
 }
 
 #joke-p1{
     font-family: 'Alfa Slab One', cursive;
     font-weight: 400;
     font-size: 32px;
+    margin: 5px;
 }
 
 #joke-p2{
@@ -68,4 +76,5 @@ body{
     font-size: 32px;
     color: #000;
     text-align: right;
+    margin: 5px;
 }
